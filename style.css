@@ -22,11 +22,15 @@ nav {
 }
 
 nav a {
-  color: #2f4f4f;
+  color: #2f4f4f !important;
   text-decoration: none;
   margin: 0 8px;
   padding: 8px 12px;
   diplay: inline-block;
+}
+
+nav a:visited {
+  color: 2f4f4f !important;
 }
 nav a:hover {
   background-color:#d9a441;
