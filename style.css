@@ -2,60 +2,65 @@ CSS
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f4f0ff;
-  color: #25233a,
+  background-color: #f4f1ea;
+  color: #333,
 }
 header {
-  background-color: #6c4ab6;
+  background-color: #2f4f4f;
   colour: white;
-  padding: 30px;
+  padding: 25px;
   text-align: center;
 }
-nav {
-  background-color: #29245c;
-  padding: 15px;
-  text align: center;
+
+header h1{
+  margin: 0 0 15px;
+  font-size: 32px;
 }
+
+nav {
+  margin-top: 10px;
+}
+
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 12px
-  font-weight: bold;
+  margin: 0 8px;
   padding: 8px 12px;
-  border-radius: 20px;
-  transition: 0.3s;
+  diplay: inline-block;
 }
 nav a:hover {
-  background-color:#ff7f6e;
-  color: white;
-}
-main {
-  max-width: 900px;
-  margin: 35px auto;
-  padding: 30px;
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba (41 36 92 0.12);
-}
-h1 { 
-  colour: #6c4ab6;
-  font-size: 42px;
-  margin-bottom:40px;
-}
-h2 {
-  color: 2962ff;
+  background-color:#d9a441;
+  border-radius: 5px;
 }
 
-p {
-  line-height:1.7;
-}
-a {
-  color:2962ff;
-}
-footer {
-  text-align: center;
-  padding: 25px;
-  margin-top: 35px;
+.site-main {
+  max-width: 900px;
+  margin: 35px auto;
+  padding: 35px;
   background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba ( 0, 0, 0, 0.1);
+}
+
+.site-main h2 {
+  color: #2f4f4f;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.site-main h3 {
+  color: #6b4f3a;
+  margin-top: 25px;
+}
+
+footer {
+  background-color: #2f4f4f;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0;
 }
