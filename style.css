@@ -22,8 +22,11 @@ nav a {
   text-decoration: none;
   margin: 0 12px
   font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: 0.3s;
 }
-nav a: hover {
+nav a:hover {
   background-color:#ff7f6e;
   color: white;
 }
