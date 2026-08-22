@@ -21,6 +21,8 @@ header h1{
 nav {
   margin-top: 15px;
   padding: 10px;
+  position: relative;
+  z-index: 10;
 }
 
 nav a {
