@@ -34,8 +34,9 @@ main {
   max-width: 900px;
   margin: 35px auto;
   padding: 30px;
-  background-color:white;
+  background-color: white;
   border-radius: 15px;
+  box-shadow: 0 8px 20px rgba (41 36 92 0.12);
 }
 h1 { 
   colour: #6c4ab6;
