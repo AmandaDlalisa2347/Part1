@@ -24,7 +24,7 @@ nav {
 }
 
 nav a {
-  color: #2f4f4f !important;
+  color: white !important;
   text-decoration: none;
   margin: 0 8px;
   padding: 8px 12px;
@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:visited {
-  color: 2f4f4f !important;
+  color: white !important;
 }
 nav a:hover {
   background-color:#d9a441;
